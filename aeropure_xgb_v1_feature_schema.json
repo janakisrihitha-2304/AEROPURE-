@@ -1,0 +1,24 @@
+{
+    "model_version": "aeropure_xgb_v1",
+    "feature_count": 17,
+    "features": [
+        "PM2.5",
+        "PM10",
+        "NO",
+        "NO2",
+        "NOx",
+        "NH3",
+        "CO",
+        "SO2",
+        "O3",
+        "Benzene",
+        "Toluene",
+        "Xylene",
+        "AQI_Current",
+        "AQI_Lag1",
+        "AQI_3Day_Mean",
+        "DayOfWeek",
+        "Month"
+    ],
+    "target": "Hazardous_Tomorrow"
+}

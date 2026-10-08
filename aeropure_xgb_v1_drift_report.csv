@@ -1,0 +1,6 @@
+Metric,Value
+Total Features,17
+Significant Drift Features,6
+Moderate Drift Features,3
+No Significant Drift Features,8
+Overall Drift Status,SIGNIFICANT DRIFT DETECTED

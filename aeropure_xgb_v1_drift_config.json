@@ -1,0 +1,37 @@
+{
+    "model_name": "AeroPure XGBoost Champion",
+    "model_version": "aeropure_xgb_v1",
+    "monitoring_method": "Population Stability Index (PSI)",
+    "thresholds": {
+        "no_significant_drift": 0.1,
+        "moderate_drift": 0.25,
+        "significant_drift": 0.25
+    },
+    "interpretation": {
+        "below_0.10": "No significant drift",
+        "0.10_to_below_0.25": "Moderate drift",
+        "0.25_or_above": "Significant drift"
+    },
+    "features_monitored": [
+        "PM2.5",
+        "PM10",
+        "NO",
+        "NO2",
+        "NOx",
+        "NH3",
+        "CO",
+        "SO2",
+        "O3",
+        "Benzene",
+        "Toluene",
+        "Xylene",
+        "AQI_Current",
+        "AQI_Lag1",
+        "AQI_3Day_Mean",
+        "DayOfWeek",
+        "Month"
+    ],
+    "baseline_file": "aeropure_xgb_v1_drift_baseline.csv",
+    "psi_test_file": "aeropure_xgb_v1_psi_test.csv",
+    "drift_report_file": "aeropure_xgb_v1_drift_report.csv"
+}

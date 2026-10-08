@@ -1,0 +1,18 @@
+Feature,PSI,Interpretation
+PM10,0.4222303331133394,Significant drift
+PM2.5,0.4078312989678355,Significant drift
+AQI_3Day_Mean,0.4047122816601476,Significant drift
+AQI_Current,0.37181285863828484,Significant drift
+AQI_Lag1,0.36832301154491287,Significant drift
+CO,0.2861468806003873,Significant drift
+Xylene,0.23731062352010185,Moderate drift
+NO2,0.18524854819427888,Moderate drift
+NH3,0.1746021354321044,Moderate drift
+SO2,0.09816348741629799,No significant drift
+Month,0.06855020897662296,No significant drift
+NO,0.052975701720431076,No significant drift
+Benzene,0.047532029635983686,No significant drift
+NOx,0.03900997752564296,No significant drift
+O3,0.034263999135455386,No significant drift
+Toluene,0.03212949614864617,No significant drift
+DayOfWeek,0.00012037889121501976,No significant drift

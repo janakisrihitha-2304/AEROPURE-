@@ -1,0 +1,20 @@
+Item,Value
+Project,AeroPure
+Week,W11
+Model,AeroPure XGBoost Champion
+Model_Version,aeropure_xgb_v1
+Model_Type,XGBoost
+Champion_Features,17
+Training_Rows,15636
+Test_Rows,8681
+Prediction_Function,Implemented
+Model_Artifact,Saved and verified
+Feature_Schema,Saved and verified
+Drift_Baseline,Created
+PSI_Monitoring,Implemented
+Drift_Configuration,Saved
+Drift_Report,Created
+Significant_Drift_Features,6
+Moderate_Drift_Features,3
+No_Significant_Drift_Features,8
+Overall_Drift_Status,SIGNIFICANT DRIFT DETECTED
